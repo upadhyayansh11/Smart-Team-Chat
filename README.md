@@ -1,16 +1,87 @@
-<<<<<<< HEAD
-# React + Vite
+Smart Team Chat UI
+This is a lightweight React prototype of a Smart Team Chat UI, built as a technical assignment. The goal is to demonstrate a modern, AI-first user interface that could enhance team communication by providing suggestions, summaries, and prompts. The focus is on a high-quality UI/UX and functional AI placeholders, without a real backend or chat integration.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+Frontend (Vercel): https://smart-team-chat-b3l9wxoxq-devansh-upadhyays-projects.vercel.app/
 
-Currently, two official plugins are available:
+Features
+Three Core Screens: A complete three-screen experience:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Chat List: Displays a list of dummy conversations.
 
-## Expanding the ESLint configuration
+Chat Window: Shows a full conversation thread.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Smart-Team-Chat
->>>>>>> c17b486d9b8cd062568cd17b912607271ce306df
+New Chat: A screen to initiate a new conversation.
+
+AI-Powered Placeholders:
+
+Summarize Thread: A button to display an AI-generated summary of the chat.
+
+Smart Reply: AI-powered suggestions for quick replies.
+
+Generate Icebreaker: A tool to create a friendly opening message for a new chat.
+
+Functional Chat Input: Users can type and send new messages, which are added to the conversation in real-time.
+
+Seamless User Flow: A generated icebreaker is automatically sent as the first message in a new chat.
+
+Professional UI/UX:
+
+Smooth Transitions: Animated screen transitions powered by Framer Motion.
+
+Auto-Scrolling: The chat window automatically scrolls to the newest message.
+
+Responsive Design: The UI is fully responsive and mobile-friendly.
+
+Modular Codebase: The application is structured with clean, modular components for better maintainability and scalability.
+
+Tech Stack
+Category
+
+Technology
+
+Frontend
+
+React.js, Vite
+
+Styling
+
+Tailwind CSS
+
+Animation
+
+Framer Motion
+
+Dev Tools
+
+Git, GitHub
+
+Deployment
+
+Vercel
+
+Local Development Setup
+To run this project on your local machine, please follow these steps:
+
+Prerequisites
+Node.js (v22.12 or higher recommended)
+
+Git
+
+A code editor like VS Code
+
+1. Clone the Repository
+git clone [https://github.com/upadhyayansh11/Smart-Team-Chat.git](https://github.com/upadhyayansh11/Smart-Team-Chat.git)
+cd Smart-Team-Chat
+
+2. Install Dependencies
+Install all the necessary npm packages.
+
+npm install
+
+3. Start the Development Server
+Run the local development server.
+
+npm run dev
+
+The application will now be running at http://localhost:5173.
